@@ -7,6 +7,7 @@
 	src: url('../fonts/static/Montserrat-Medium.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
+	font-display: swap;
 }
 
 @font-face {
@@ -14,6 +15,7 @@
 	src: url('../fonts/static/Montserrat-ExtraBold.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
+	font-display: swap;
 }
 
 @font-face {
@@ -21,6 +23,7 @@
 	src: url('../fonts/static/Montserrat-SemiBold.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
+	font-display: swap;
 }
 
 @font-face {
@@ -28,6 +31,7 @@
 	src: url('../fonts/static/Montserrat-Bold.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
+	font-display: swap;
 }
 
 body {
