@@ -10,8 +10,22 @@
 }
 
 @font-face {
-	font-family: 'Montserrat-bold';
+	font-family: 'Montserrat-bolder';
 	src: url('../fonts/static/Montserrat-ExtraBold.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat-SemiBold';
+	src: url('../fonts/static/Montserrat-SemiBold.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat-Bold';
+	src: url('../fonts/static/Montserrat-Bold.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -52,8 +66,8 @@ body {
 }
 
 .main .container-main .info-container .comming-soon-text {
-	font-family: 'Montserrat-bold';
-	font-weight: bold;
+	font-family: 'Montserrat-bolder';
+	/*font-weight: bold;*/
 	line-height: .5;
 	font-size: 2rem;
 }
@@ -173,7 +187,7 @@ main .container-main .info-container .comming-soon-text.small-text {
 }
 
 .main .animal .animal-name {
-	font-family: 'Montserrat-bold';
+	font-family: 'Montserrat-bolder';
 	font-weight: bold;
 	font-size: 1.1em;
 }
@@ -184,7 +198,7 @@ main .container-main .info-container .comming-soon-text.small-text {
 }
 
 .main .animal .animal-text-desc span {
-	font-family: 'Montserrat-bold';
+	font-family: 'Montserrat-bolder';
 	font-weight: bold;
 }
 
@@ -198,4 +212,25 @@ main .container-main .info-container .comming-soon-text.small-text {
 .main .footer img {
 	width: 40%;
 
+}
+
+/* Mostrar nombres correctamente en celulares pequeños */
+@media (max-width:350px) {
+	.main .arrow-container {
+		/*border: 1px solid #000;*/
+		/*height: 100px;*/
+		height: 200px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.main .arrow-container .text-container {
+		width: 60%;
+		background-color: var(--flecha-texto-bg-color);
+		height: 50%;
+		text-align: center;
+		line-height: 1;
+		z-index: 1;
+	}
 }
