@@ -3,14 +3,14 @@
 }
 
 @font-face {
-	font-family: 'Monserrat-regular';
+	font-family: 'Montserrat-regular';
 	src: url('../fonts/static/Montserrat-Medium.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
-	font-family: 'Monserrat-bold';
+	font-family: 'Montserrat-bold';
 	src: url('../fonts/static/Montserrat-ExtraBold.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
@@ -27,7 +27,7 @@ body {
 	align-items: center;
 	flex-direction: column;
 	/*font-family: 'Roboto', sans-serif;*/
-	font-family: 'Monserrat-regular';
+	font-family: 'Montserrat-regular';
 
 }
 
@@ -173,7 +173,7 @@ main .container-main .info-container .comming-soon-text.small-text {
 }
 
 .main .animal .animal-name {
-	font-family: 'Monserrat-bold';
+	font-family: 'Montserrat-bold';
 	font-weight: bold;
 	font-size: 1.1em;
 }
@@ -184,7 +184,7 @@ main .container-main .info-container .comming-soon-text.small-text {
 }
 
 .main .animal .animal-text-desc span {
-	font-family: 'Monserrat-bold';
+	font-family: 'Montserrat-bold';
 	font-weight: bold;
 }
 
