@@ -31,6 +31,89 @@ body {
 
 }
 
+/*START CSS PAGINA INDEX */
+.main .container-main {
+	width: 100vw;
+	height: 100vh;
+	background-image: url('../img/desktop/IMAGEN-EN-CONSTRUCCION-fondo-dsk.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.main .container-main .info-container {
+	width: 80%;
+	text-align: center;
+	color: #fff;
+}
+
+.main .container-main .info-container .comming-soon-text {
+	font-family: 'Montserrat';
+	font-weight: bold;
+	line-height: .5;
+	font-size: 2rem;
+}
+
+main .container-main .info-container .comming-soon-text.small-text {
+	font-size: .7rem;
+}
+
+.main .container-main .info-container img {
+	width: 300px;
+	/*width: 80%;*/
+}
+
+.main .container-main .info-container .loading-container {
+	width: 100%;
+}
+
+.main .container-main .info-container .loading-container .bar-container {
+	width: 100%;
+	height: 10px;
+	border: 1px solid #fff;
+}
+
+.main .container-main .info-container .loading-container .bar-container .color-bar {
+	width: 70%;
+	height: 10px;
+	background-color: #fff;
+}
+
+.main .container-main .info-container .loading-container .text-container {
+	display: flex;
+	justify-content: space-between;
+}
+
+/* desde 827px en adelante*/
+@media (min-width: 827px) {
+
+	.main .container-main .info-container .loading-container .bar-container {
+		width: 663px;
+		margin: 0 auto;
+	}
+
+	.main .container-main .info-container .loading-container .text-container {
+		width: 663px;
+		margin: 0 auto;
+	}
+
+}
+
+/* desde 1200px en adelante*/
+@media (min-width: 1200px) {
+
+	.main .container-main .info-container img {
+		width: 500px;
+	}
+
+}
+
+/*END CSS PAGINA INDEX */
+
 .main .section {
 	width: 70%;
 	/*border: 1px solid #000;*/
