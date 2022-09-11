@@ -238,3 +238,24 @@ main .container-main .info-container .comming-soon-text.small-text {
 		z-index: 1;
 	}
 }
+
+/* Mantener imagenes y descripcion de animales en medida fija para escritorio */
+@media (min-width: 886px) {
+	.main .animal {
+		width: 886px;
+	}
+
+	.main .animal img {
+		width: 886px;
+		height: 664px;
+	}
+
+	.main .footer {
+		width: 886px;
+	}
+
+	.main .footer img {
+		width: 264px;
+		height: 163px;
+	}
+}
