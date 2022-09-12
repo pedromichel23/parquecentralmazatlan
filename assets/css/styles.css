@@ -76,10 +76,6 @@ body {
 	font-size: 2rem;
 }
 
-main .container-main .info-container .comming-soon-text.small-text {
-	font-size: .7rem;
-}
-
 .main .container-main .info-container img {
 	width: 300px;
 	/*width: 80%;*/
@@ -128,6 +124,35 @@ main .container-main .info-container .comming-soon-text.small-text {
 		width: 500px;
 	}
 
+}
+
+/* fix mostrar en celulares de display pequeños */
+@media (max-width: 330px) {
+	.main .container-main .info-container img {
+		width: 230px;
+	}
+
+	.main .container-main .info-container .comming-soon-text {
+		font-size: 1.3rem;
+	}
+
+	.main .container-main .info-container .small-text {
+		font-size: .8rem;
+	}
+}
+
+@media (max-height: 400px) {
+	.main .container-main .info-container img {
+		width: 230px;
+	}
+
+	.main .container-main .info-container .comming-soon-text {
+		font-size: 1rem;
+	}
+
+	.main .container-main .info-container .small-text {
+		font-size: .7rem;
+	}
 }
 
 /*END CSS PAGINA INDEX */
